@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f8fa"/><stop offset="1" stop-color="#e8edf2"/></linearGradient>
+  <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#dfe4e7"/></linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#4d5b65"/><stop offset="1" stop-color="#18232b"/></linearGradient>
+  <filter id="shadow"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#273746" flood-opacity=".22"/></filter>
+  <style>
+    .t{font-family:Arial,'Noto Sans SC',sans-serif;fill:#24313b}.muted{fill:#6f7d87}.line{stroke:#8da0ad;stroke-width:2;fill:none}.dim{stroke:#607480;stroke-width:2;fill:none;marker-start:url(#a);marker-end:url(#a)}
+  </style>
+  <marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M8 0L0 4L8 8" fill="none" stroke="#607480"/></marker>
+</defs>
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<text x="90" y="100" class="t" font-size="54" font-weight="700">ICE CUBE MINI</text>
+<text x="92" y="148" class="t muted" font-size="24">家用小型台面制冰机 · 工业设计概念</text>
+<g filter="url(#shadow)">
+  <rect x="150" y="235" width="500" height="550" rx="58" fill="url(#body)" stroke="#d3dadd"/>
+  <path d="M150 310Q150 235 225 235H575Q650 235 650 310V392H150Z" fill="#eef1f2"/>
+  <rect x="228" y="350" width="344" height="310" rx="36" fill="url(#glass)"/>
+  <path d="M255 382H545V530Q490 583 400 583Q310 583 255 530Z" fill="#718692" opacity=".5"/>
+  <g fill="#d9f3fa" opacity=".92">
+    <ellipse cx="325" cy="494" rx="35" ry="45"/><ellipse cx="401" cy="505" rx="35" ry="45"/><ellipse cx="477" cy="490" rx="35" ry="45"/>
+    <ellipse cx="360" cy="555" rx="34" ry="40"/><ellipse cx="440" cy="558" rx="34" ry="40"/>
+  </g>
+  <rect x="292" y="270" width="216" height="54" rx="27" fill="#d9dee1"/>
+  <circle cx="340" cy="297" r="9" fill="#76cce6"/><circle cx="400" cy="297" r="9" fill="#a6b2b8"/><circle cx="460" cy="297" r="9" fill="#a6b2b8"/>
+  <rect x="247" y="725" width="306" height="16" rx="8" fill="#c4ccd0"/>
+</g>
+<text x="150" y="840" class="t" font-size="30" font-weight="700">主视图</text>
+<text x="150" y="878" class="t muted" font-size="22">暖白细砂外壳 · 烟灰观察窗 · 顶部三键交互</text>
+
+<g transform="translate(855 250)" filter="url(#shadow)">
+  <path d="M70 0H355Q420 0 420 65V470Q420 535 355 535H70Q0 535 0 465V70Q0 0 70 0Z" fill="url(#body)" stroke="#d3dadd"/>
+  <path d="M0 105H420V210H0Z" fill="#eff2f3"/>
+  <rect x="30" y="250" width="16" height="150" rx="8" fill="#bbc5ca"/>
+  <g stroke="#9baab1" stroke-width="5"><path d="M390 255v150"/><path d="M375 255v150"/></g>
+  <rect x="95" y="500" width="230" height="13" rx="6" fill="#c4ccd0"/>
+</g>
+<text x="855" y="840" class="t" font-size="30" font-weight="700">侧视图</text>
+<text x="855" y="878" class="t muted" font-size="22">隐藏提手 · 后部散热 · 底部排水</text>
+
+<path d="M150 205V175M650 205V175" class="line"/><path d="M155 185H645" class="dim"/>
+<text x="362" y="172" class="t" font-size="20">270 mm</text>
+<path d="M120 235H90M120 785H90" class="line"/><path d="M103 240V780" class="dim"/>
+<text x="72" y="540" class="t" font-size="20" transform="rotate(-90 72 540)">310 mm</text>
+<path d="M855 810V825M1275 810V825" class="line"/><path d="M860 817H1270" class="dim"/>
+<text x="1025" y="807" class="t" font-size="20">335 mm</text>
+
+<g transform="translate(90 925)">
+  <circle cx="10" cy="0" r="10" fill="#f2f0ea"/><text x="34" y="7" class="t muted" font-size="18">暖白</text>
+  <circle cx="135" cy="0" r="10" fill="#5d6b75"/><text x="159" y="7" class="t muted" font-size="18">烟灰</text>
+  <circle cx="260" cy="0" r="10" fill="#b9c1c5"/><text x="284" y="7" class="t muted" font-size="18">雾银</text>
+</g>
+<text x="1510" y="948" text-anchor="end" class="t muted" font-size="18">Concept target · dimensions subject to engineering validation</text>
+</svg>
